@@ -1,3 +1,4 @@
+// ==UserScript==
 // @name         Bot for Yandex
 // @namespace    http://tampermonkey.net/
 // @version      0.1
