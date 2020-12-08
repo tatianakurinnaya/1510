@@ -44,7 +44,7 @@ if (btnY!=undefined){
         let nextPage = document.getElementsByClassName("pager__item_kind_next")[0];
         if(!linkIsFound && pageNum<10){
             setTimeout(()=>{nextPage.click();},1000);
-        }else{
+        }else if(!linkIsFound){
             location.href = "https://yandex.ru/";
         }
     },1000);
